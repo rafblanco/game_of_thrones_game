@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'game_of_thronesregular';
+    src: url('../font/webfontkit/game_of_thrones-webfont.woff') format('woff2'),
+         url('../font/webfontkit/game_of_thrones-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    background-image: url("../images/background-image-2.jpg");
+    /* height: 100%; 
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+body {
+    font-family: 'game_of_thronesregular';
+    font-style: normal;
+    letter-spacing: 0.1em;
+  }
+
+header , section{
+    margin: auto;
+    text-align: center;
+    color: white;
+    line-height: 1.5rem;
+}
+#starting-section {
+    margin: auto;
+    text-align: center;
+}
+.fighter {
+    display: inline-block;
+    width: 130px;
+    height: 140px;
+    font-size: 7px;
+    color: black;
+    margin: 2px;
+}
+#jonsnow {
+    background-color: white;
+    padding: 5px;
+    border: 3px solid green;
+}
+#kingslayer {
+    background-color: white;
+    padding: 5px;
+    border: 3px solid green;
+}
+#thehound {
+    background-color: white;
+    padding: 5px;
+    border: 3px solid green;
+}
+#oberyn {
+    background-color: white;
+    padding: 5px;
+    border: 3px solid green;
+}
+.fighter > p {
+    padding: 0;
+    line-height: 0rem;
+    font-weight: 900;
+}
+h3 {
+    clear: both;
+    font-size: 18px;
+}
+.health {
+    font-size: 12px;
+}
+#display {
+    font-size: 12px;
+}
+
