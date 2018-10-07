@@ -87,8 +87,12 @@ $(document).ready(function () {
         }
         if (players[yourCharacter].healthpower <= 0) {
             $("#your-character").html("");
-            $("#loss-display").html("You have brought a great deal of shame to the " + players[yourCharacter].family);
+            $("#loss-display").html("You have brought a great deal of shame to the " + players[yourCharacter].family).css("color", "white");
+        
             $("<section>").hide();
+            $("#attack-button").on("click", function(){
+                return false;
+            })
         }
     });
 });
