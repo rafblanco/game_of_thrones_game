@@ -8,12 +8,6 @@
 
 body, html {
     background-image: url("../images/background-image-2.jpg");
-    /* height: 100%; 
-    margin: 0;
-    padding: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 body {
@@ -27,6 +21,7 @@ header , section{
     text-align: center;
     color: white;
     line-height: 1.5rem;
+    letter-spacing: 3px;
 }
 #starting-section {
     margin: auto;
@@ -67,7 +62,7 @@ header , section{
 }
 h3 {
     clear: both;
-    font-size: 18px;
+    font-size: 16px;
 }
 .health {
     font-size: 12px;
@@ -75,4 +70,6 @@ h3 {
 #display {
     font-size: 12px;
 }
-
+hr {
+    width: 80%;
+}
