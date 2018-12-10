@@ -3,7 +3,7 @@
 ## Description
 A web browser RPG game based on the HBO series Game of Thrones. The app dynamically updates the HTML pages with the jQuery library.
 
-###Here's how the app works:
+### Here's how the app works:
 
    * When the game starts, the player will choose a character by clicking on the fighter's picture. The player will fight as that character for the rest of the game.
 
